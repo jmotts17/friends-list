@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'friends-list';
+  // create an array named friends and populate with some friends
+  friends:string[] = ["Sean", "Ron", "Julie", "Phil"];
 }
