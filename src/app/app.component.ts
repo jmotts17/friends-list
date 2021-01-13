@@ -14,5 +14,6 @@ export class AppComponent {
 
   addFriend() {
     this.friends.push(this.newFriend);
+    
   }
 }
